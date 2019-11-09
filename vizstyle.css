@@ -1,0 +1,19 @@
+#title {
+    color: #05295c;
+    font-family: Times New Roman, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+}
+
+#subtitle {
+    color: #278dd6;
+    font-family: Times New Roman, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    padding: 15px;
+}
+
+    body {
+        background-color: white;
+    }
