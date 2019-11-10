@@ -6,10 +6,10 @@ function fireAPI() {
     request.onload = function () {
         // Begin accessing JSON data here
         data = JSON.parse(request.response)
-        console.log(data)
+        console.log(data.message)
     }
     request.send()
 }
 function displaydata(){
-    document.getElementById("thedata").innerHTML = data
+    document.getElementById("imageurl").setAttribute('src',data.message)
 }
