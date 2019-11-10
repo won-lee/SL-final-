@@ -1,7 +1,7 @@
 var request = new XMLHttpRequest();
 
 function fireAPI() {
-    request.open('GET', 'https://static.openfoodfacts.org/data/openfoodfacts-mongodbdump.tar.gz')
+    request.open('GET', 'https://api.openbrewerydb.org/breweries')
     request.setRequestHeader('Accept', 'application/json'); // setting format response as json
     request.onload = function () {
         // Begin accessing JSON data here
