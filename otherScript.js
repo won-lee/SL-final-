@@ -6,7 +6,10 @@ function fireAPI() {
     request.onload = function () {
         // Begin accessing JSON data here
         data = JSON.parse(request.response)
-        console.log(data.joke)
+        console.log(data)
     }
     request.send()
+}
+function displaydata(){
+    document.getElementById("thedata").innerHTML = data
 }
