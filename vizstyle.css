@@ -14,8 +14,14 @@
     padding: 15px;
 }
 
+#thedata {
+    color: white;
+
+}
+
     body {
         background-color: black;
+        text-align: center;
     }
 
     html {
