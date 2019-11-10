@@ -1,7 +1,7 @@
 var request = new XMLHttpRequest();
 
 function fireAPI() {
-    request.open('GET', 'https://api.openbrewerydb.org/breweries')
+    request.open('GET', 'https://dog.ceo/api/breeds/image/random')
     request.setRequestHeader('Accept', 'application/json'); // setting format response as json
     request.onload = function () {
         // Begin accessing JSON data here
