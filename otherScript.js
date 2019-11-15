@@ -9,7 +9,6 @@ function fireAPI() {
         console.log(data.message)
     }
     request.send()
-}
-function displaydata(){
     document.getElementById("imageurl").setAttribute('src',data.message)
 }
+
